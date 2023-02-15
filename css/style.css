@@ -1,0 +1,285 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    width: 100%;
+    height: 90px;
+    border-bottom: 2px solid rgb(80, 80, 231);
+    background: linear-gradient(rgb(50, 50, 247) , rgb(51, 51, 252));
+}
+.PicFb{
+    width: 190px;
+    height: 63px;
+    position: absolute;
+    left: 13%;
+    padding-top: 15px;
+
+}
+.Lform{
+    display: flex;
+    position: absolute;
+    left: 58%;
+    top: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.Lform .LEmail,
+.Lform .Password{
+    padding-left: 10px;
+}
+.Lform .LEmail .LEFont,
+.Lform .Password .LPFont{
+    font-size: 13px;
+    color: white;
+    padding-bottom: 4px;
+}
+.Lform .LEmail input,
+.Lform .Password input{
+    width: 150px;
+    height: 23px;
+    padding-left: 5px;
+    outline:none ;
+    border: 1px solid black;  
+}
+.Blogo{
+    width: 50px;
+    height: 24px;
+    margin-left: 15px;
+    margin-top: 20px;
+    border-radius: 2px;
+    outline: none;
+    cursor: pointer;
+    color: white;
+    background-color: rgb(50, 50, 255);
+    border: 1px solid rgb(108, 108, 218) ;
+
+
+}
+.Blogo:hover{
+    background-color: rgb(107, 107, 236) ;
+}
+section{
+    width: 100%;
+    height: 614px;
+    top: 80px;
+    background: linear-gradient(rgb(170, 170, 247) , rgb(254, 254, 255));
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.Fbody{
+    position: absolute;
+    left: 15%;
+    top: 20%;
+}
+.Fbody .Thank{
+    font-size: 25px;
+    margin-left:-30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Fbody .we{
+    color: rgb(21, 82, 133);
+    margin-left: 20px;
+    margin-bottom: 5px;
+}
+.signup_cf{
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    left: 57%;
+
+}
+.signup_cf .CrAc{
+    font-size: 40px;
+    margin: 25px 0px;
+}
+.signup_cf .Fw{
+    font-size: 18px;
+    margin: -20px 5px;
+}
+.signup_cf .Sign_Face input{
+    margin-top: 50px;
+    height: 38px;
+    width: 190px;
+    padding-left: 10px;
+    font-size: 18px;
+    border: 1px solid silver;
+    border-radius: 4px;
+}
+.signup_cf .Sign_Face .Lastname{
+    margin-left: 15px;
+}
+
+.signup_cf .Sign_Face .Email,
+.signup_cf .Sign_Face .Password,
+.signup_cf .Sign_Face .Password2{
+    margin-top: 20px;
+    width: 410px;
+}
+.signup_cf .Sign_Face .Birthday{
+    margin-top: 15px;
+    color: gray;
+    font-weight: bold;
+    font-size: 20px;
+}
+.signup_cf .Sign_Face .birthday{
+    margin-top: 5px;}
+
+.signup_cf .Sign_Face .year,
+.signup_cf .Sign_Face .month,
+.signup_cf .Sign_Face .day{
+  height: 28px;
+}
+.signup_cf .Sign_Face .year,
+.signup_cf .Sign_Face .day{
+    margin-left: -5px;}
+
+.signup_cf .Sign_Face .Birth_hint{
+
+    font-style: italic;
+    font-size: 12px;
+    padding-left: 190px;
+    margin-top: -28px ;
+    width: 190px;
+}
+.signup_cf .Sign_Face .Birth_hint a{
+    text-decoration: none;
+}
+
+.signup_cf .Sign_Face input[type="radio"]{
+    height: 15px;
+    margin-left: -50px;
+    margin-top: 30px;
+}
+.signup_cf .Sign_Face input[value="Female"]{
+   margin-left: -100px; 
+}
+.signup_cf .Sign_Face .M1{
+    margin-top: -20px;
+    margin-left: 59px;
+}
+.signup_cf .Sign_Face .F1{
+    margin-left: 155px;
+    margin-top: -20px;
+}
+.signup_cf .Sign_Face .agreement{
+    margin-top: 15px;
+    font-size: 12px;
+    width: 350px;
+    color: gray;
+}
+.signup_cf .Sign_Face .signup{
+    padding: 6px;
+    margin-top: 20px;
+    width: 200px;
+    background-color: rgb(50, 82, 4);
+    border: navajowhite;
+    font-size: 18px;
+    font-weight:900;
+    color: rgb(255, 255, 255);
+}
+@media (min-width:320px) {
+   .navbar{
+    width: 100%;
+    height: 90px;
+   }
+   .PicFb{
+    width: 190px;
+    height: 63px;
+    left: 9%;
+    padding-top: 15px;
+   }
+   .Lform{
+    display: flex;
+    position: absolute;
+    left: 45%;
+    top: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.Lform .LEmail,
+.Lform .Password{
+    padding-left: 5px;
+}
+.Lform .LEmail .LEFont,
+.Lform .Password .LPFont{
+    font-size: 11px;
+    color: white;
+    padding-bottom: 1px;
+}
+.Lform .LEmail input,
+.Lform .Password input{
+    width: 100px;
+    height: 20px;
+    padding-left: 5px;
+    outline:none ;
+    border: 1px solid black;
+}
+.Blogo{
+    width: 50px;
+    height: 22px;
+    margin-left: 1px;
+    margin-top: 15px;
+}
+.Fbody{
+    position: absolute;
+    left: 10%;
+    top: 10%;    
+}
+.Picfb{
+    width: 250px;
+}
+.signup_cf{
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    left: 40%;
+}
+.signup_cf .Sign_Face input{
+    height: 30px;
+    width: 150px;
+}
+.signup_cf .Sign_Face .Email,
+.signup_cf .Sign_Face .Password,
+.signup_cf .Sign_Face .Password2{
+    margin-top: 20px;
+    width: 330px;
+}
+.signup_cf .Sign_Face input[type="radio"]{
+    height: 15px;
+    margin-left: -10px;
+    margin-top: 30px;
+}
+.signup_cf .Sign_Face input[value="Female"]{
+   margin-left: -80px; 
+}
+.signup_cf .Sign_Face .M1{
+    margin-top: -20px;
+    margin-left: 80px;
+}
+.signup_cf .Sign_Face .F1{
+    margin-left: 155px;
+    margin-top: -18px;
+}
+}
+
+
+@media (min-width:425px){
+    
+    .Fbody{
+        position: absolute;
+        left: 10%;
+        top: 25%;    
+    }
+    .Picfb{
+        width: 250px;
+    }
+ }
+ @media (min-width:768px){
+    
+    .Fbody{
+        position: absolute;
+        left: 10%;
+        top: 10%    
+    }
+    .Picfb{
+        width: 250px;
+    }
+ }
+
